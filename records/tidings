@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Lobby Art</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="nav">
+        <a href="../index.html">lobby</a>
+        <a href="../art.html">art</a>
+        <a href="../records.html">records</a>
+      </div>
+      <div id="content">
+        <p class="spaced">LA005</p>
+        <div id="album-image-container">
+          <img id="album-cover-big"
+               src="../images/album-covers/MWSS_big.jpg"
+               height="400" />
+          <img id="cassette-mockup"
+               src="../images/cassettes/MWSS.jpg"
+               height="400" />
+        </div>
+        <p class="spaced">Layperson - Tidings</p>
+        <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2151942025/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://layperson.bandcamp.com/album/tidings">Tidings by Layperson</a></iframe>
+          <a href="https://layperson.bandcamp.com/album/tidings">
+            Tidings
+          </a>
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
