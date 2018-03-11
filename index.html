@@ -3,19 +3,30 @@
     <meta charset="UTF-8">
     <title>Lobby Art</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mobile.css">
   </head>
   <body>
     <div id="page-container">
       <div id="nav">
-        <a href="">lobby</a>
-        <a href="art.html">art</a>
-        <a href="records.html">records</a>
+        <div id="mobile-toggle" onclick="toggleNav()">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+        </div>
+        <div id="link-container">
+          <a href="">lobby</a>
+          <a href="art.html">art</a>
+          <a href="records.html">records</a>
+        </div>
       </div>
       <div id="content">
         <img id="logo" src="images/lobby-art.jpg" />
-        <p>welcome to the lobby</p>
-        <p>lobbyartrecords || at || gmail.com</p>
+        <p id="welcome">welcome to the lobby</p>
+        <p id="email">lobbyartrecords || at || gmail.com</p>
       </div>
     </div>
   </body>
+  <footer>
+    <script src='./js/mobile.js'></script>
+  </footer>
 </html>

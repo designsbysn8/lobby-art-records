@@ -3,13 +3,21 @@
     <meta charset="UTF-8">
     <title>Lobby Art</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mobile.css">
   </head>
   <body>
     <div id="page-container">
       <div id="nav">
-        <a href="index.html">lobby</a>
-        <a href="art.html">art</a>
-        <a href="records.html">records</a>
+        <div id="mobile-toggle" onclick="toggleNav()">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+        </div>
+        <div id="link-container">
+          <a href="">lobby</a>
+          <a href="art.html">art</a>
+          <a href="records.html">records</a>
+        </div>
       </div>
       <div id="content">
         <div id="records">
@@ -77,4 +85,7 @@
       </div>
     </div>
   </body>
+  <footer>
+    <script src='./js/mobile.js'></script>
+  </footer>
 </html>

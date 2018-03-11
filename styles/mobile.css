@@ -1,0 +1,88 @@
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 800px)
+  {
+    #content {
+      width: 100%;
+      display: block;
+    }
+
+    /* nav */
+
+    #nav {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    #mobile-toggle {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      margin: 1em 45%;
+    }
+
+    #mobile-toggle span {
+      width: 60px;
+      height: 5px;
+      background-color: #333;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+
+    #link-container {
+      background: #fff;
+      position: absolute;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 8em;
+      transition: 1.4s;
+    }
+
+    #nav a {
+      font-size: 4em;
+      font-style: italic;
+      flex-grow: 1;
+      margin: 1em;
+      transition: all 0.5s;
+      letter-spacing: 0.3em;
+      text-decoration: none;
+    }
+
+    /* main */
+
+    #logo {
+      width: 60%;
+    }
+
+    #welcome {
+      font-size: 5em;
+    }
+
+    #email {
+      font-size: 3em;
+    }
+
+    /* records */
+
+    #records {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+    .record a img {
+      height: 50%;
+      margin: 5% 25px;
+    }
+
+    .record .record-text {
+      opacity: 1;
+      height: 5%;
+      font-size: 3em;
+      margin-bottom: 15%;
+    }
+
+
+}
