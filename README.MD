@@ -9,9 +9,9 @@ lobby art site
 
 2) Add cassette mockup to `images/cassettes`. Sample name: `album-name.jpg`
 
-3) Add new record page. I put specific instructions for this in `records/README.md`
+3) Add new record page. I put specific instructions for this in `records/README.md`. Once this is added you can access it at `www.lobbyartrecords.com/records/[album-name].html`. This is a good way to preview it and make sure everything looks good before you add it to the records page.
 
-4) Add press page (if desired). Instructions coming soon.
+4) Add press page and/or one sheet (if desired). Instructions coming soon.
 
 5) Add the new record to the `records.html` page. I left a comment in the file that shows you what you need to copy and paste.
 
