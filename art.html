@@ -22,13 +22,15 @@
                 style="width: 100%; border: 0; overflow: hidden;"></iframe>
       </div>
     </div>
+    <div id="copyright"></div>
   </body>
   <script language="JavaScript">
         <!--
         function y2k(number) { return (number < 1000) ? number + 1900 : number; }
         var today = new Date();
         var year = y2k(today.getYear());
-        document.write('© '+year+' Lobby Art - All Rights Reserved');
+        var copyright = document.getElementById('copyright')
+        copyright.innerHTML = '© '+ year +' Lobby Art - All Rights Reserved';
         //-->
   </script>
 </html>
